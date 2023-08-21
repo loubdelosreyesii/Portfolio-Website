@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    display:flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    justify-content: center;
+    color:#2d2d2d;
+}
+
+nav{
+    background-color: black;
+    color:#fff;
+    padding:20px;
+    position: sticky;
+    top:0;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+nav ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-weight:lighter;
+    color: #fff;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight:bolder;
+    color: #161616;
+}
+h2,h3{
+    font-weight:bolder;
+    color: #161616;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width:80vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.portfolio{
+    display: flex;
+    
+}
+.portfolio-img img{
+    border-radius: 10px;
+    border:10px solid #ebebeb;
+    display: inline;
+    margin-right: 20px;
+}
+
+.portfolio-content a {
+    color:#0069A7;
+}
+
+p{
+    margin-bottom:2rem;
+    text-align: justify;
+}
+
+h2,h4{
+    margin-bottom: 2rem;
+}
+
