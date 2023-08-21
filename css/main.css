@@ -40,7 +40,15 @@ a{
     color: #fff;
 }
 
-h1{
+/* apply below property after link and visited */
+a:hover{
+    color:#02a2ff;
+}
+/* //recommended to apply below property after the hover */
+a:active{
+    font-weight:bolder;
+}
+h1{ 
     font-size: 5rem;
     font-weight:bolder;
     color: #161616;
@@ -91,4 +99,6 @@ p{
 h2,h4{
     margin-bottom: 2rem;
 }
-
+.nowrap{
+    white-space: nowrap;
+}
